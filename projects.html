@@ -1,77 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="SHORTCUT ICON" href="GenericPerson.png" type="image/x-icon">
-		<title>Projects</title>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="main.css"/>
+		<link rel="SHORTCUT ICON" href="Initials.png" type="image/x-icon">
+			<title>Projects</title>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<link rel="stylesheet" href="main.css"/>
+			<link rel="stylesheet" href="projects.css"/>
 
-	</head>
-	<body>
-		<div class="page-wrap">
-			<div class="header">
-				<h1 id="name">DA PENG</h1>
-
-			</div>
-
-			<nav class="topnav">
-				<!-- using a table helps us center the horizontal list of items -->
-
-				<ul class="links-list">
-					<li>
-						<a href="index.html">About Me</a>
-					</li>
-					<li>
-						<a href="resume.html">Resume</a>
-					</li>
-					<li>
-						<a href="#" id="current-link">Projects</a>
-					</li>
-					<li>
-						<a href="contact.html">Contact</a>
-					</li>	
-				</ul>
-
-			</nav>
-
-			<div class="main-body">
-				<h2 style="text-align: center;">Projects</h2>
-				<h3>Project 1</h3>
-				<p>Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1
-				Description of Project 1</p>
-				<h3>Project 2</h3>
-				<p>Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2
-				Description of Project 2</p>
-
-
-				<div class="footer">
-					<p>footer</p>
+		</head>
+		<body>
+			<div class="page-wrap">
+				<div class="header">
+					<h1 id="name">DA PENG</h1>
 
 				</div>
-			</div>
-		</div>
-	</body>
-</html>
+
+				<nav class="topnav">
+					<!-- using a table helps us center the horizontal list of items -->
+
+					<ul class="links-list">
+						<li>
+							<a href="index.html">About Me</a>
+						</li>
+						<li>
+							<a href="resume.pdf" target="_blank">Resume</a>
+						</li>
+						<li>
+							<a href="#" id="current-link">Projects</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>	
+					</ul>
+
+				</nav>
+
+				<div class="main-body">
+					<h2 style="text-align: center;">Projects</h2>
+
+					<ul id="projects-list">
+						<li>
+							<h2>
+								<a href="https://github.com/Da-Pen/Tank-Fighter" target="_blank">Tank Fighter</a>
+								<b>. . . . . . . . . . . . March-June 2017</b>
+							</h2>
+							<img id="tankfighter-img" src="TankFighter-Gameplay.png"/>
+							<p>I programmed this game in Java in a group of 3 for ICS4U (Grade 12 Programming).</p>
+							<p>Features:
+								<ul>
+									<li>12 Levels</li>
+									<li>Enemies travel on the shortest path towards the player (and avoid bullets)</li>
+									<li>3 different bullet types (regular, fast, and bullets that seek the player)</li>
+									<li>Level parsing from an external text file</li>
+									<li>Stores high scores in an external file</li>
+								</ul>
+							</p>
+						</li>
+						<hr/>
+
+						<li>
+							<h2>
+								<a href="https://github.com/Da-Pen/Derivative-Grapher" target="_blank">Derivative Grapher</a>
+								<b>. . . . . . . . . . . . June 2017</b>
+							</h2>
+							<img id="derivative-grapher-img" src="Derivative-Grapher.png"/>
+							<p>A program I made in Java for my AP Calculus Final Project. It first prompts you to enter a function 
+							 with the starting and ending x values you wish to be displayed, then it opens a window with
+							 the function and its derivative graphed. This program is meant to give an intuitive understanding
+							 of derivatives to a student who is new to calculus.</p>
+							<p>Features:
+								<ul>
+									<li>Graphs tangent line at the x value of the mouse's position</li>
+									<li>Displays coordinates of function and its derivative at the x value of the mouse's position</li>
+									<li>Parses string entered by user into a function</li>
+								</ul>
+							</p>
+
+						</li>
+						<hr/>
+						<li>
+							<h2>
+								<a href="falldown.html" target="_blank">Fall Down</a>
+								<b>. . . . . . . . . . . . January-March 2016</b>
+							</h2>
+							<img id="falldown-img" src="Falldown-Gameplay.png"/>
+							<p>A falldown game I programmed in Javascript.</p>
+							<p>Features:
+								<ul>
+									<li>5 Upgrade types</li>
+									<li>Sounds</li>
+								</ul>
+							</p>
+
+						</li>
+						<hr/>
+						<li>
+							<h2>
+								<a href="https://github.com/Da-Pen/Tetris" target="_blank">Tetris</a>
+								<b>. . . . . . . . . . . . March 2017</b>
+							</h2>
+							<img id="tetris-img" src="Tetris-Gameplay.png"/>
+							<p>The classic Tetris game, with a twist: instead of blocks being only 4 squares in size,
+							   they can be anywhere from 1 block to 5 blocks in size. This game was programmed in Java.</p>
+
+						</li>
+						<div class="footer"></div>
+					</div>
+				</div>
+			</body>
+		</html>
+		

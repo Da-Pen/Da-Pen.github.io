@@ -9,7 +9,7 @@
 }
 
 /* style the dates */
-#projects-list li h2 b {
+#projects-list li h2 b { 
 	font-size: 0.8em;
 	color: grey;
 }

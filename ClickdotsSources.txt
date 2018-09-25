@@ -1,8 +1,0 @@
-https://i.imgur.com/hufRxcS.jpg,dalmation,dog;
-https://i.imgur.com/KBL8nTj.jpg,wall,graffiti;
-https://i.imgur.com/tCvtXZn.jpg,lion;
-https://i.imgur.com/HC9uumA.jpg,mountain bike,bike,mountain,biker;
-https://i.imgur.com/vSmhXYB.jpg,book,books,shelf,library,reading,read;
-https://i.imgur.com/2cqOkJk.jpg,snail;
-https://i.imgur.com/oE7PDqj.jpg,tiger;
-https://i.imgur.com/jxXRmRk.jpg,car,headlight,headlights,manta;

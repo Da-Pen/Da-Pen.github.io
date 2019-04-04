@@ -1,0 +1,32 @@
+.NavBar {
+    width: 100%;
+    padding: 20px 60px;
+    vertical-align: middle;
+}
+
+#name-label {
+    font-weight: 600;
+}
+
+#nav-bar-list {
+    display: flex;
+    float: right;
+}
+
+.nav-bar-item {
+    font-size: 12px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: #bbb;
+}
+
+.nav-bar-item.selected {
+    color: white;
+}
+
+/* TODO */
+@media (max-width:650px) {
+    * {
+        color: red;
+    }
+}

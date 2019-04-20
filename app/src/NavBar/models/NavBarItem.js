@@ -1,10 +1,7 @@
 export class NavBarItem {
-    name;
-    component;
-    isActive;
-    constructor(name, component, isActive = false) {
+    constructor(name, component, route) {
         this.name = name;
         this.component = component;
-        this.isActive = isActive;
+        this.route = route;
     }
 }

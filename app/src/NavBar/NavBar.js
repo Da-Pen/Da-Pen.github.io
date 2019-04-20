@@ -1,18 +1,27 @@
 import React from 'react';
 import './NavBar.css';
+import { Link, NavLink, withRouter } from 'react-router-dom';
+
 
 class NavBar extends React.Component {
 
   render() {
     return (
       <div className="NavBar">
-        <label id="name-label">— DANIEL PENG —</label>
+       <Link to="/"><label id="name-label">DANIEL PENG</label></Link>
         <span id="nav-bar-list">
-          {this.props.navBarItems.map((navBarItem, index) => {
-            return <span onClick={() => {this.props.onClickItem(index)}} 
-                    className={(this.props.currentPageIndex === index) ? "nav-bar-item selected" : "nav-bar-item"}
-                    key={index}>{navBarItem.name}</span>;
-          })}
+            {this.props.navBarItems.map(navBarItem => {
+              return (
+                <NavLink 
+                  key={navBarItem.route}
+                  exact={true} 
+                  to={navBarItem.route}
+                  className="nav-bar-item"
+                  activeClassName="selected">
+                    {navBarItem.name}
+                  </NavLink>
+              );
+            })}
         </span>
       </div>
     );
@@ -20,4 +29,4 @@ class NavBar extends React.Component {
 
 }
 
-export default NavBar;
+export default withRouter(NavBar);

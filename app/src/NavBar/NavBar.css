@@ -1,8 +1,12 @@
 .NavBar {
     width: 100%;
     box-sizing: border-box;
-    padding: 20px 60px;
+    padding-bottom: 20px;
     vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
 }
 
 #name-label {
@@ -18,7 +22,7 @@
     font-size: 12px;
     margin-left: 30px;
     cursor: pointer;
-    color: #bbb;
+    color: #aaa;
 }
 
 .nav-bar-item.selected {

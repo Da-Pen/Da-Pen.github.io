@@ -1,0 +1,9 @@
+.middle-column {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #777;
+    text-align: center;
+}

@@ -1,4 +1,4 @@
 .BodyComponent {
-    height: 100%;
+    min-height: 100%;
     flex-grow: 1; /* make it fill the remaining parent height */
 }

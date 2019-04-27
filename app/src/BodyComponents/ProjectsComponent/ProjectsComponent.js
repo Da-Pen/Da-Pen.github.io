@@ -18,7 +18,15 @@ export class ProjectsComponent extends React.Component {
         "https://github.com/Da-Pen/Tank-Fighter",
         "./images/Tank-Fighter.png",
         "March-June 2017",
-        <div>tank fighter description</div>)
+        <div>tank fighter description</div>),
+
+        new Project("Tank Fighter",
+        "https://github.com/Da-Pen/Tank-Fighter",
+        "./images/Tank-Fighter.png",
+        "March-June 2017",
+        <div>{[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1].map((a, index) => (
+            <p key={index}>asdfsadf</p>
+        ))}</div>)
     
     ];
     

@@ -1,6 +1,6 @@
-
 import React from 'react';
-import '../BodyComponents.css'
+import './ProjectsComponent.css';
+import '../BodyComponents.css';
 
 
 export class ProjectComponent extends React.Component {
@@ -9,7 +9,10 @@ export class ProjectComponent extends React.Component {
         const project = this.props.project;
         return (
             <div>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">{ project.name }</a>
+                <div className="project-title">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">{ project.name }</a>
+                </div>
+                {project.content}
             </div>
         );
     }
